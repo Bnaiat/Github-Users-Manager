@@ -1,0 +1,40 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  background-color: var(--light-blue);
+  border-radius: 15px;
+  border: 1px solid var(--white);
+}
+
+.cardWrapper h2 {
+  margin: 20px 0;
+  color: var(--white);
+}
+
+.customButton {
+  height: 30px;
+  padding: 3px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--bg-color);
+  color: var(--white);
+}
+
+.customButton:hover {
+  background-color: var(--yellow);
+  color: var(--bg-color);
+  font-weight: bold;
+}
+
+.cardWrapper img {
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.customLink {
+  text-decoration: none;
+}

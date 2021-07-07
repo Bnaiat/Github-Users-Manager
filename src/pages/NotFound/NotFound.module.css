@@ -1,0 +1,29 @@
+.pageWrapper {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+}
+
+.pageWrapper h1 {
+  font-size: 3rem;
+  color: var(--white);
+  margin-bottom: 20px;
+}
+
+.pageWrapper a {
+  color: var(--white);
+  background-color: var(--light-blue);
+  border: 1px solid var(--white);
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.pageWrapper a:hover {
+  color: var(--bg-color);
+  background-color: var(--yellow);
+  font-weight: bolder;
+}

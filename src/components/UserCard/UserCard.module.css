@@ -1,0 +1,27 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 5px;
+  border: 1px solid var(--bg-color);
+  border-radius: 15px;
+  background-color: var(--light-blue);
+  color: var(--white);
+  border: 1px solid var(--white);
+}
+.cardWrapper:hover {
+  background-color: var(--yellow);
+  color: var(--bg-color);
+  transform: translateY(-8px);
+  border: 1px solid var(--ligh-blue);
+}
+.cardWrapper img {
+  max-width: 180px;
+  border-radius: 50%;
+}
+
+.customLink {
+  text-decoration: none;
+  color: #000000;
+}

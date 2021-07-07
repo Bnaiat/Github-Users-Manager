@@ -1,0 +1,39 @@
+.fullWrapper {
+  padding: 25px;
+  border-radius: 25px;
+  background-color: var(--light-blue);
+  border: 1px solid var(--white);
+}
+.fullWrapper h1,
+.fullWrapper h3 {
+  text-align: center;
+  color: var(--white);
+}
+.loadingWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gridWrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3px;
+}
+.organisationsWrapper {
+  min-width: 118px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.organisationsWrapper img {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 450px) {
+  .gridWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}

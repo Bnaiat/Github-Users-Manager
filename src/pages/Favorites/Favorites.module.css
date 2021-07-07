@@ -1,0 +1,36 @@
+.pageWrapper {
+  min-height: 90vh;
+  margin-top: 10vh;
+  padding-top: 25px;
+  background-color: var(--bg-color);
+}
+.favoritesWrapper {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.pageWrapper h1 {
+  text-align: center;
+  color: var(--white);
+}
+
+.pageWrapper h3 {
+  text-align: center;
+  color: var(--white);
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 1300px) {
+  .pageWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .favoritesWrapper {
+    grid-template-columns: 1fr;
+  }
+}

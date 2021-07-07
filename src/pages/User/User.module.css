@@ -1,0 +1,15 @@
+.pageWrapper {
+  padding: 25px;
+  background-color: var(--bg-color);
+  min-height: 90vh;
+  margin: 10vh auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+@media screen and (max-width: 780px) {
+  .pageWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

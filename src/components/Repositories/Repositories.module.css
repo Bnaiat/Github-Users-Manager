@@ -1,0 +1,20 @@
+.repositories {
+  padding: 25px;
+  text-align: center;
+}
+.loadingWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.repositories h1 {
+  color: var(--white);
+}
+
+@media screen and (max-width: 780px) {
+  .repositories {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+}

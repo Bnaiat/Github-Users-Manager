@@ -1,0 +1,26 @@
+.cardWrapper {
+  margin: 10px 0;
+  padding: 20px;
+  background-color: var(--light-blue);
+  border-radius: 15px;
+  border: 1px solid var(--white);
+}
+
+.cardWrapper h4 {
+  color: var(--white);
+  margin-bottom: 10px;
+}
+
+.cardWrapper a {
+  text-decoration: none;
+  color: var(--white);
+  padding: 5px 25px;
+  background-color: var(--bg-color);
+  border-radius: 5px;
+}
+
+.cardWrapper a:hover {
+  color: var(--bg-color);
+  background-color: var(--yellow);
+  font-weight: bold;
+}
